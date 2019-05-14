@@ -1,0 +1,91 @@
+body {
+	background-color: #000;
+	color: lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata', monospace;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+#pojemnik {
+	width: 1000px;
+	height: 700px;
+	margin: 100px auto;
+	border: 1px solid #fff;
+}
+
+#plansza {
+	width: 800px;
+	min-height: 100px;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 48px;
+}
+
+#tresc {
+	display: flex;
+	justify-content: space-around;
+}
+
+#szubienica,
+#alfabet {
+	min-height: 280px;
+}
+
+.litera {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid #ccc;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.litera:hover,
+.btn:hover {
+	background-color: #222;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.reset {
+	cursor: pointer;
+	color: green;
+	font-size: 48px;
+	text-align: center;
+}
+
+.reset:hover {
+	color: #fff;
+}
+
+.btn {
+	border: 2px solid #fff;
+	width: 250px;
+	height: 70px;
+	background-color: #000;
+	color: lightgray;
+	display: block;
+	margin: 0 auto;
+	font-size: 28px;
+	border-radius: 15px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------*/
